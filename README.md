@@ -10,6 +10,8 @@ npm install --save vue-lottie
 1) Assets
 No diretório assets tem uma pasta animations que estão as animações em json baixadas no site: https://lottiefiles.com/search?q=emojis&category=animations
 
+
+
 2) nuxt.config.ts
 É necessário configurar o Nuxt para importar automáticamente o componente do lottie
 ```js
@@ -17,8 +19,12 @@ No diretório assets tem uma pasta animations que estão as animações em json 
 components: [{ path: '@/components/', pathPrefix: false }, { path: 'vue-lottie/src/lottie.vue', pathPrefix: false }],
 ```
 
+
+
 3) Minha animação está com fundo branco, como corrigir?
 Acesse o arquivo em json, busque pelo parâmetro "sc" (ou código da cor) e altere para a cor desejada ou "transparent, por exemplo, "sc":"#ffffff" para "sc":"transparent"
+
+
 
 4) LottieAnimation.vue
 Na pasta atoms tem o componente do Lottie é necessário fazer o require do arquivo com animação. 
