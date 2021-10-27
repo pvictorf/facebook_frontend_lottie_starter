@@ -32,8 +32,8 @@ em seguida, altere cor para transparent, por exemplo,
 
 
 ### 4) LottieAnimation.vue
-Na pasta atoms temos a abstração da lib com o componente LottieAnimation.vue para uso das animações.json é necessário fazer o require. 
-Existem duas formas de importar o arquivo, sendo elas:
+Na pasta atoms temos a abstração da lib com o componente LottieAnimation.vue para uso das animações.json é necessário fazer o require() e 
+existem duas formas de importar o arquivo, sendo elas:
 ```js
 const animationData = require(`@/assets/animations/${this.animation}.json`)
 options {
