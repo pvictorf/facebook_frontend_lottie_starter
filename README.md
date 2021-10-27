@@ -2,11 +2,12 @@
 Projeto do curso da Cataline https://station.cataline.io/bootcamp.
 Esse projeto se trata apenas do stater onde foi adicionado a biblioteca do vue-lottie para trabalhar com Nuxt.
 
+
 # Instalando Vue Lottie
 npm install --save vue-lottie
 
-# Configurando e Entendendo
 
+# Configurando e Entendendo
 1) Assets
 No diretório assets tem uma pasta animations que estão as animações em json baixadas no site: https://lottiefiles.com/search?q=emojis&category=animations
 
