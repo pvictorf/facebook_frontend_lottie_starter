@@ -11,7 +11,7 @@ npm install --save vue-lottie
 
 # Configurando e Entendendo
 ### 1) Assets
-No diretório assets tem uma pasta animations que estão as animações em json baixadas no site: https://lottiefiles.com/search?q=emojis&category=animations
+No diretório *assets* tem uma pasta *animations* que estão as animações em json baixadas no site: https://lottiefiles.com/search?q=emojis&category=animations
 
 
 
