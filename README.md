@@ -42,7 +42,7 @@ options {
 
 import * as animationData from '@/assets/animations/emojis-like.json'
 options {
-  animationData: animationData.default // nesse caso os dados da animação fica dentro da propriedade 'default'
+  animationData: animationData.default // nesse caso os dados da animação ficarão dentro da propriedade 'default'
 }
 ```
 
