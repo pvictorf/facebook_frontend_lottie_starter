@@ -25,7 +25,7 @@ components: [{ path: '@/components/', pathPrefix: false }, { path: 'vue-lottie/s
 ```bash
 Acesse o arquivo em json, busque pelo parâmetro "sc" (ou código da cor), 
 em seguida, altere cor para transparent, por exemplo, 
-# "sc":"#ffffff"** para "sc":"transparent"
+# "sc":"#ffffff" para "sc":"transparent"
 ```
 
 
