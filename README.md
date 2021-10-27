@@ -23,7 +23,8 @@ components: [{ path: '@/components/', pathPrefix: false }, { path: 'vue-lottie/s
 
 3) Minha animação está com fundo branco, como corrigir?
 ```bash
-Acesse o arquivo em json, busque pelo parâmetro "sc" (ou código da cor) e altere para a cor desejada ou "transparent, por exemplo, "sc":"#ffffff" para "sc":"transparent"
+Acesse o arquivo em json, busque pelo parâmetro "sc" (ou código da cor), 
+em seguida, altere para a cor desejada ou "transparent, por exemplo, "sc":"#ffffff" para "sc":"transparent"
 ```
 
 
