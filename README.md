@@ -4,6 +4,8 @@ Esse projeto se trata apenas do stater onde foi adicionado a biblioteca do vue-l
 
 
 # Instalando Vue Lottie
+https://www.npmjs.com/package/vue-lottie#configuration
+
 npm install --save vue-lottie
 
 
