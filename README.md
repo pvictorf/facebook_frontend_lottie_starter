@@ -22,18 +22,7 @@ No diretório assets tem uma pasta animations que estão as animações em json 
 components: [{ path: '@/components/', pathPrefix: false }, { path: 'vue-lottie/src/lottie.vue', pathPrefix: false }],
 ```
 
-
-
-### 3) Minha animação está com fundo branco, como corrigir?
-```bash
-Acesse o arquivo da animção espeficia em json, busque pelo parâmetro "sc" (ou código da cor), 
-em seguida, altere cor para transparent, por exemplo, 
-# "sc":"#ffffff" para "sc":"transparent"
-```
-
-
-
-### 4) LottieAnimation.vue
+### 3) LottieAnimation.vue
 Na pasta atoms temos a abstração da lib com o componente LottieAnimation.vue para uso das animações.json é necessário fazer o require() e 
 existem duas formas de importar o arquivo, sendo elas:
 ```js
@@ -48,7 +37,14 @@ options {
 }
 ```
 
-## Build Setup
+### 4) Minha animação está com fundo branco, como corrigir?
+```bash
+Acesse o arquivo da animção espeficia em json, busque pelo parâmetro "sc" (ou código da cor), 
+em seguida, altere cor para transparent, por exemplo, 
+# "sc":"#ffffff" para "sc":"transparent"
+```
+
+## Setup
 
 ```bash
 # install dependencies
@@ -64,5 +60,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
