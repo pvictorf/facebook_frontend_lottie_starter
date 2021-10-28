@@ -47,7 +47,7 @@ em seguida, altere cor para transparent, por exemplo,
 
 ### 5) Solucionando o problema: Cannot find module consider using '--resolveJsonModule' to import module with '.json' extension.
 ```bash
-No tsconfig.json adiciona o parâmetro resolveJsonModule: true em "compilerOptions"
+No tsconfig.json adicione o parâmetro resolveJsonModule: true em "compilerOptions"
 
 // tsconfig.js
 "compilerOptions": {
